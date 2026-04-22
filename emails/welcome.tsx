@@ -10,7 +10,7 @@ import {
   Section,
   Tailwind,
   Text,
-} from '@react-email/components';
+} from 'react-email';
 import { createTranslator } from 'next-intl';
 
 interface WelcomeEmailProps {
