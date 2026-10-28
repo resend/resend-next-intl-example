@@ -6,7 +6,7 @@ jobs:
   pr-title-check:
     runs-on: depot-ubuntu-22.04-2
     container:
-      image: node:24
+      image: node:26
     steps:
       - name: Checkout
         uses: actions/checkout@v6
